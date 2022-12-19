@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule
+        xmlns="http://jboss.org/kie/6.0.0/kmodule">     <!-- Set our event processing from stream input (default cloud input), as sensors always stream -->
+    <kbase name="DroolDummyKB" packages="rules" eventProcessingMode="stream">
+        <ksession name="DroolDummyKS"/>
+    </kbase>
+</kmodule>
